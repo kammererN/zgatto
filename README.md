@@ -1,5 +1,4 @@
-# zgatto
-![Zelda 8bit logo](images/zelda-8bit-256px.png) 
+# ![Zelda 8bit logo](images/zelda-8bit-256px.png) zgatto
 ## About
 zgatto = zelda (my cat) + gatto (italian --> 'cat')
 
