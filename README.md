@@ -1,7 +1,6 @@
 # zgatto
-
+![Zelda 8bit logo](images/zelda-8bit-256px.png) 
 ## About
-
 zgatto = zelda (my cat) + gatto (italian --> 'cat')
 
 ## How to Use
@@ -12,4 +11,4 @@ Quite simple:
 & that should be it! zgatto was designed with simple integration in mind. 
 
 ## Cat Tax
-![Zelda kitty](cat_tax.jpg)
+![Zelda kitty](images/cat_tax.jpg)
