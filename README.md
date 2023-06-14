@@ -12,4 +12,4 @@ Quite simple:
 & that should be it! zgatto was designed with simple integration in mind. 
 
 ## Cat Tax
-![Kitten mascot](cat_tax.jpg)
+![Zelda kitty](cat_tax.jpg)
