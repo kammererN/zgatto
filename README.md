@@ -1,6 +1,7 @@
 # zgatto
 
 ## About
+![Kitten mascot](readme_logo.jpg)
 zgatto = zelda + gatto (italian --> 'cat')
 
 ## How to Use
