@@ -84,7 +84,7 @@
       gattoEl.style.height = "32px";
       gattoEl.style.position = "fixed";
       gattoEl.style.pointerEvents = "none";
-      gattoEl.style.backgroundImage = "url('./zgatto.gif')";
+      gattoEl.style.backgroundImage = "url('zgatto.gif')";
       gattoEl.style.imageRendering = "pixelated";
       gattoEl.style.left = `${gattoPosX - 16}px`;
       gattoEl.style.top = `${gattoPosY - 16}px`;
