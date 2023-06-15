@@ -1,6 +1,6 @@
 
 (function zgatto() {
-    const gattoEl = document.createElement("div");
+    const gatto = document.createElement("div");
     let gattoPosX = 32;
     let gattoPosY = 32;
     let mousePosX = 0;
@@ -78,31 +78,31 @@
       ],
     };
   
-    function create() {
-      gattoEl.id = "onegatto";
-      gattoEl.style.width = "32px";
-      gattoEl.style.height = "32px";
-      gattoEl.style.position = "fixed";
-      gattoEl.style.pointerEvents = "none";
-      gattoEl.style.backgroundImage = "url('zgatto.gif')";
-      gattoEl.style.imageRendering = "pixelated";
-      gattoEl.style.left = `${gattoPosX - 16}px`;
-      gattoEl.style.top = `${gattoPosY - 16}px`;
-      gattoEl.style.zIndex = "999";
+    function main() {
+      gatto.id = "zgatto";
+      gatto.style.width = "32px";
+      gatto.style.height = "32px";
+      gatto.style.position = "fixed";
+      gatto.style.pointerEvents = "none";
+      gatto.style.backgroundImage = "url('zgatto.gif')";
+      gatto.style.imageRendering = "pixelated";
+      gatto.style.left = `${gattoPosX - 16}px`;
+      gatto.style.top = `${gattoPosY - 16}px`;
+      gatto.style.zIndex = "999";
   
-      document.body.appendChild(gattoEl);
+      document.body.appendChild(gatto);
   
       document.onmousemove = (event) => {
         mousePosX = event.clientX;
         mousePosY = event.clientY;
       };
   
-      window.onegattoInterval = setInterval(frame, 100);
+      window.zgattoInterval = setInterval(frame, 100);
     }
   
     function setSprite(name, frame) {
       const sprite = spriteSets[name][frame % spriteSets[name].length];
-      gattoEl.style.backgroundPosition = `${sprite[0] * 32}px ${sprite[1] * 32}px`;
+      gatto.style.backgroundPosition = `${sprite[0] * 32}px ${sprite[1] * 32}px`;
     }
   
     function resetIdleAnimation() {
@@ -200,10 +200,10 @@
       gattoPosX = Math.min(Math.max(16, gattoPosX), window.innerWidth - 16);
       gattoPosY = Math.min(Math.max(16, gattoPosY), window.innerHeight - 16);
   
-      gattoEl.style.left = `${gattoPosX - 16}px`;
-      gattoEl.style.top = `${gattoPosY - 16}px`;
+      gatto.style.left = `${gattoPosX - 16}px`;
+      gatto.style.top = `${gattoPosY - 16}px`;
     }
   
-    create();
+    main();
   })();
   
