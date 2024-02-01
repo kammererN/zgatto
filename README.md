@@ -17,6 +17,3 @@ Quite simple:
 
 ## Cat Tax
 ![Zelda kitty](images/cat_tax.jpg)
-
-## 
-This project is now read only. Thank you.  
