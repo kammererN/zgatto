@@ -1,5 +1,5 @@
 # ![Zelda 8bit logo](images/zelda-8bit-256px.png) zgatto
-[Live Demo](https://nxrada.github.io/zgatto/demo.html)
+[Live Demo](https://kammererN.github.io/zgatto/demo.html)
 
 zgatto = zelda (my cat) + gatto (italian --> 'cat')
 
